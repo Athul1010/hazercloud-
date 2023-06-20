@@ -1,0 +1,197 @@
+.landing-container{
+    background: rgb(102,133,181);
+    background: linear-gradient(68deg, rgba(102,133,181,1) 0%, rgba(16,16,17,1) 11%, rgba(7,6,36,1) 100%);
+}
+
+ 
+.dropbtn {
+    background-color: transparent;
+    color: gray;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #292929;
+    min-width: 200px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0);
+
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color:gray;
+    padding: 20px 20px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color:rgb(8, 6, 93)}
+ 
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+
+  }
+
+  #logo1{
+    height: 44px;
+    width: 144px;
+  
+}
+
+#hire{
+    height: 45px;
+    border-radius: 20px;
+    width: 110px;
+   
+    
+    font-size: 15px;
+    border: none;
+    text-shadow: var(--shadow-light);
+
+    background-image: linear-gradient(to right, #5058c0 0%, hsl(0, 73%, 56%)  51%, #e4d8da  100%);
+ 
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color:rgb(255, 255, 255);           
+ 
+    border-radius: 50px;
+ 
+}
+
+#hire button:hover{
+   
+    background-position: left; 
+    box-shadow: 0 0 18px #eee;
+   
+    text-decoration: none;
+    
+}
+
+#career{
+    margin: 0px 10px;
+    color: gray;
+
+}
+#contact{
+    margin: 0px 10px;
+    color: gray;
+
+}
+
+#hire{
+    margin: 0px 10px;
+  
+}
+
+#home{
+    margin: 0px 10px;
+    color: gray;
+
+}
+
+  
+ #nav{
+    background-color: #000;
+ }
+
+ h1{
+    padding-top: 15px;
+    padding-left: 50px;
+    background-color: rgb(75, 56, 56);
+    background: linear-gradient(to right, #5058c0  0%,hsl(0, 73%, 56%)  100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+   
+  
+    font-size:large; 
+
+ }
+
+ .buttons{
+    display: flex;
+    margin-left: 40px;
+   
+    
+    align-items: center;
+    
+  
+}
+
+#one {
+    background-image: linear-gradient(to right, #5058c0 0%, hsl(0, 62%, 53%)  51%, #f9dede  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+  
+    border-radius: 50px;
+    display: block;
+  }
+
+
+  #second{
+    font-size: 17px;
+    height: 70px;
+    width: 220px;
+    border-radius: 50px;
+    background-color: black;
+    background: transparent;
+    color: white;
+    /* border-color: rgb(39, 39, 48); */
+    border: 2px solid rgb(49, 45, 45);
+}
+#second:hover{
+    background-color: rgb(214, 76, 26);
+    transition: 0.4s;
+}
+
+p{
+    color: rgb(118, 101, 101);
+    font-size: 20px;
+}
+
+#main{
+    font-size: 90px;
+    margin-top: 50px;
+}
+#anime{
+    font-size: 90px;
+    
+    height: 250px;
+
+}
+
+p{
+    color: gray;
+    margin-left: 50px;
+
+}
+
+
+#one:hover{
+    background-color:  linear-gradient(to right, #5f68e8 0%, hsl(0, 91%, 73%)  51%, #f9dede  100%);
+    background-position: right left; 
+    box-shadow: 0 0 10px #eee;
+   
+    text-decoration: none;
+
+
+}
